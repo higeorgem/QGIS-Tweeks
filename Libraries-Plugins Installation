@@ -1,3 +1,4 @@
+//INSTALLING 3RD PARTY LIBRARIES IN QGIS
 One way using QGIS is:
 
 Open Python QGIS Console And:
@@ -8,16 +9,19 @@ or in a cmd:
 
 pip install openpyxl
 
+//CHECK PYTHON INSTALLATION PATH
+>>> import os
+>>> import sys
+>>> os.path.dirname(sys.executable)
+'C:\\Python25'
 
-
-
-
+//INSTALLING 3RD PARTY LIBRARIES IN QGIS
 From within the Qgis 2.18.28 's python 2.7.14 console, this works for me. It avoids having to use prompts with absolute python paths.
 
 import subprocess
 subprocess.check_call(['python', '-m', 'pip', 'install', 'openpyxl'])
 
-
+//INSTALLING 3RD PARTY LIBRARIES IN QGIS
 The simple way I found to install libraries for Python in QGIS is
 
 Open OSGeo4W Shell as an administrator
