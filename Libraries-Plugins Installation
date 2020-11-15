@@ -37,3 +37,5 @@ Type py3_env in the console (This should print paths of your QGIS Python install
 Type python -m pip install {your library}
 
 and its done.
+//PIP TWEAKING AND USIN PIP TO INSTALL THIRD PARTY LIBRARIES VIA CMD
+pip install openpyxl
