@@ -1,3 +1,6 @@
+//USING PIP
+pip install --target="C:\Program Files\QGIS 3.4\apps\Python37\Lib\site-packages" openpyxl –
+
 //INSTALLING 3RD PARTY LIBRARIES IN QGIS
 One way using QGIS is:
 
