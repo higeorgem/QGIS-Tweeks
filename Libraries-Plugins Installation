@@ -1,3 +1,17 @@
+One way using QGIS is:
+
+Open Python QGIS Console And:
+
+import pip
+pip.main(['install', 'Openpyxl'])
+or in a cmd:
+
+pip install openpyxl
+
+
+
+
+
 From within the Qgis 2.18.28 's python 2.7.14 console, this works for me. It avoids having to use prompts with absolute python paths.
 
 import subprocess
