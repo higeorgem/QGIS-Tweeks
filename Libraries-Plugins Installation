@@ -15,6 +15,9 @@ pip install openpyxl
 >>> os.path.dirname(sys.executable)
 'C:\\Python25'
 
+//OR
+python -c "import os, sys; print(os.path.dirname(sys.executable))"
+
 //INSTALLING 3RD PARTY LIBRARIES IN QGIS
 From within the Qgis 2.18.28 's python 2.7.14 console, this works for me. It avoids having to use prompts with absolute python paths.
 
