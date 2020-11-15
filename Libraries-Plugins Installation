@@ -39,3 +39,5 @@ Type python -m pip install {your library}
 and its done.
 //PIP TWEAKING AND USIN PIP TO INSTALL THIRD PARTY LIBRARIES VIA CMD
 pip install openpyxl
+//UPGRADING PIP
+python -m pip install --upgrade pip
