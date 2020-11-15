@@ -1,0 +1,15 @@
+From within the Qgis 2.18.28 's python 2.7.14 console, this works for me. It avoids having to use prompts with absolute python paths.
+
+import subprocess
+subprocess.check_call(['python', '-m', 'pip', 'install', 'openpyxl'])
+
+
+The simple way I found to install libraries for Python in QGIS is
+
+Open OSGeo4W Shell as an administrator
+
+Type py3_env in the console (This should print paths of your QGIS Python installation)
+
+Type python -m pip install {your library}
+
+and its done.
