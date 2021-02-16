@@ -1,6 +1,23 @@
 //USING PIP
 pip install --target="C:\Program Files\QGIS 3.4\apps\Python37\Lib\site-packages" openpyxl –
 
+       // Install openpyxl library
+                             Solution Ubuntu:
+
+                             Run this command in terminal:
+                             sudo apt-get install python-openpyxl
+                             or
+                             pip install openpyxl
+
+                             Solution Windows:
+
+                             Install openpyxl python library (https://openpyxl.readthedocs.io/en/default/).
+                             Locate "bin" folder in your QGIS installation folder (probably "C:\Program Files\QGIS 2.18\bin") and run these commands in windows command line as administrator:
+                             python-qgis.bat -m pip install setuptools (if setuptools are not installed)
+                             python-qgis.bat -m pip install openpyxl
+
+
+
 //INSTALLING 3RD PARTY LIBRARIES IN QGIS
 One way using QGIS is:
 
